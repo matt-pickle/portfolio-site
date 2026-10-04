@@ -16,3 +16,5 @@ navLinks.forEach(link => {
     nav.classList.remove("nav-open")
   })
 })
+
+document.querySelector("#copyright-year").textContent = new Date().getFullYear()
